@@ -3,7 +3,7 @@ This application exposes certain endpoints as Rest services to interact with Agi
 
 ## Process Flow
 The following figure depicts the process flow that this integration is targeting to address. 
-![flow.png](https://bitbucket.org/repo/LorprKk/images/3378691089-flow.png)
+![flow.png](https://github.com/nsbassi/eln-docs/raw/master/flow.png)
 A Project Manager will setup project in PLM by initiating the same from template and assign required roles to team members.
 
 Project Manager or Group Leaders will then create experiments under specific tasks in PLM and allocate the same to Scientists in their team.
@@ -14,7 +14,7 @@ The experiment will then be performed and the conclusions recorded in ELN. A hum
 
 # Getting Started
 To perform operations in PLM, ELN application needs to first authenticate and then use the token returned by authentication request for making any subsequent requests. The following figure depicts typical sequence of interactions between ELN and PLM.
-![intg.png](https://bitbucket.org/repo/LorprKk/images/231622971-intg.png)
+![intg.png](https://github.com/nsbassi/eln-docs/raw/master/intg.png)
 
 ## Authenticate
 ELN needs to make a request to `/authenticate` endpoint passing user id and password as parameters. 
